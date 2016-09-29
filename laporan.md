@@ -92,19 +92,34 @@ Ncrack finished.
 * dari penetrasi di atas diketahui bahwa server dengan nama 'ggg' memiliki password 'ggg'
 
 
-* 
-
 ## Uji Penetrasi 2
 
 ### Konfigurasi sofware Fail2ban
 
-* -
-* -
+* Pertama intall fail2ban di os ubuntu server
+
+```
+~$ sudo apt-get install fail2ban
+```
+
+* Tunggu sampai proses download dan instalisasi selesai
+* Kemudian jalankan *fail2ban*
+
+```
+~$ sudo systemctl start fail2ban.service
+```
 
 ### Konfigurasi openSSH
 
-* -
-* -
+* Untuk konfigurasi openSSH, bisa mengedit file konfigurasi di /etc/ssh/sshd_config
+
+```
+~$ sudo nano /etc/ssh/sshd_config
+```
+
+* Di file ini bisa untuk merubah port ssh yang biasanya 22 menjadi berapapun.
+* tidak hanya port juga masih banyak configurasi yang lainnya.
+
 
 ### Uji penetrasi menggunakan Ncrack
 
