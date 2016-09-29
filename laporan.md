@@ -38,40 +38,41 @@ Software Ncrack adalah ...
 
 ### Instalasi Ubuntu Server di vmware
 
-* 
-* 
+* -
+* -
 
 ### Instalasi kali linux di vmware
 
-* 
-* 
+* -
+* -
 
 ### Instalasi software openSSH
 
-* 
-* 
+* -
+* -
 
 ### Uji penetrasi menggunakan Ncrack
 
-* 
-* 
+* -
+* -
 
 ## Uji Penetrasi 2
 
 ### Konfigurasi sofware Fail2ban
 
-* 
-* 
+* -
+* -
 
 ### Konfigurasi openSSH
 
-* 
-* 
+* -
+* -
 
 ### Uji penetrasi menggunakan Ncrack
 
-* 
-* 
+* -
+* -
 
 ## Kesimpulan dan Saran
 
+-
