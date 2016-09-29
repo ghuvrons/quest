@@ -38,7 +38,7 @@ Software Ncrack adalah ...
 
 ### Instalasi Ubuntu Server di vmware
 
-* -
+* Pertama download Ubuntu Server di http://www.ubuntu.com/download/server
 * -
 
 ### Instalasi kali linux di vmware
