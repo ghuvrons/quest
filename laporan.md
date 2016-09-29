@@ -50,8 +50,11 @@ Software Ncrack adalah ...
 
 ### Instalasi software openSSH
 
-* -
-* -
+* Untuk mengintall openSSH di OS Ubuntu server ketik 
+
+    ~$ sudo apt-get update && apt-get install openssh-server
+
+* masukkan password server. kemudian klik enter.
 
 ### Uji penetrasi menggunakan Ncrack
 
