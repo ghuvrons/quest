@@ -18,10 +18,60 @@ Banyak sekali di era yang serba teknologi ini kejahatan semakin ramai. Jaman sek
 * Untuk menguji penetrasi jaringan yang terbuka port SSH-nya.
 * Untuk mengetahui cara mengatasai SSH brute fore attack.
 
+
 ## Dasar Teori
 
 ### OS Ubuntu Server
 
+OS Ubuntu Server adalah ...
+
 ### Software openSSH
 
+Software openSSH merupakan ...
+
 ### Software Ncrack
+
+Software Ncrack adalah ...
+
+
+## Uji Penetrasi 1
+
+### Instalasi Ubuntu Server di vmware
+
+* 
+* 
+
+### Instalasi kali linux di vmware
+
+* 
+* 
+
+### Instalasi software openSSH
+
+* 
+* 
+
+### Uji penetrasi menggunakan Ncrack
+
+* 
+* 
+
+## Uji Penetrasi 2
+
+### Konfigurasi sofware Fail2ban
+
+* 
+* 
+
+### Konfigurasi openSSH
+
+* 
+* 
+
+### Uji penetrasi menggunakan Ncrack
+
+* 
+* 
+
+## Kesimpulan dan Saran
+
