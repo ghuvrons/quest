@@ -39,12 +39,14 @@ Software Ncrack adalah ...
 ### Instalasi Ubuntu Server di vmware
 
 * Pertama download Ubuntu Server di http://www.ubuntu.com/download/server
-* -
+* Buka vmware kemudian ctrl+N untuk membuat virtual mechine baru. pilih image ubuntu server yang baru di download.
+* ikuti perintah-perintah yang ada di vmware sampai instalisasi selesai
 
 ### Instalasi kali linux di vmware
 
-* -
-* -
+* Pertama download image iso kali linux di http://cdimage.kali.org/kali-2016.2/
+* Buka vmware kemudian ctrl+N untuk membuat virtual mechine baru. pilih image ubuntu server yang baru di download.
+* ikuti perintah-perintah yang ada di vmware sampai instalisasi selesai
 
 ### Instalasi software openSSH
 
